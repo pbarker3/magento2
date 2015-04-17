@@ -47,6 +47,11 @@ abstract class AbstractModel extends \Magento\Framework\Model\AbstractModel
      * @var bool
      */
     protected $_isReadonly = false;
+    
+    /**
+     * @var string
+     */
+    protected $_eventPrefix = 'sales_rule';
 
     /**
      * Getter for rule combine conditions instance
